@@ -1,15 +1,19 @@
 html{
     scroll-behavior: smooth;
 }
+
 .main-body{
-    max-width: 100%;
+    width: 100%;
     background-image: url(img/pexels-photo-303383.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 @media only screen and (max-width: 875px) {
     .main-body {
-      background-size: cover;
+        background-size: cover;
+       /* background-image: url(img/photo-1541991078342-884c7bcb1ad6.jpeg);
+       background-repeat:no-repeat; */
+       
     }
   }
 
@@ -43,6 +47,10 @@ html{
 }
 .section4{
     background-image: linear-gradient(to left, #434343, #000000);
+}
+.auto-alignment{
+    width: 100%;
+    height: auto;
 }
 .date{
     background-color: turquoise;
@@ -80,5 +88,5 @@ html{
 }
 .social-media-icon{
     margin: 0px auto;
-    
+
 }
