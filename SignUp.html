@@ -13,23 +13,17 @@
 <body>
     <header >
         <div class="row">
-            <div class="col-md-6 col-6 p-3 pl-5">
+            <div class="col-md-6 col-6 p-3 pl-5 ">
                 <h2><a class="text-white font-weight-bold" id="home" href="index.html" style="text-decoration: none;" >S@R</a></h2>
             </div>
-            <div class="col-md-6 col-6 p-3 ">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation ">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                  
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav ml-auto pr-5">
+            <div class="col-md-6 col-6 p-3">
+                <nav class="navbar navbar-expand-lg navbar-light"></nav>
+                      <ul class="navbar-nav pr-5">
                         <li class="nav-item active">
-                          <a class="text-white nav-link font-weight-bold" href="index.html">Home <span class="sr-only">(current)</span></a>
+                          <a class="text-white nav-link font-weight-bold" href="index.html" style="margin-right: auto;" >Home <span class="sr-only">(current)</span></a>
                         </li>
                       </ul>
-                    </div>
-                  </nav>
+                    </nav>
             </div>
         </div>
     </header>
@@ -45,7 +39,7 @@
         <!-- //title -->
         <!-- content -->
         <div class="sub-main-w3">
-            <form validate="true" action="#" method="post">
+            <form validate="true" action="index.html" method="GET">
                 <div class="form-group">
                     <label for="exampleInputText">Name</label>
                     <input type="text" class="form-control" name="name" id="exampleInputText" placeholder="Enter Name" required>
@@ -59,13 +53,8 @@
                     <input type="mobile" class="form-control" name="name" id="exampleMobile1" placeholder="Mobile number" required>
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control w-100 textarea form-background textarea" rows="5" cols="45" name="comment" form="" >Enter message here...</textarea>
+                    <textarea class="form-control w-100 textarea form-background textarea" rows="5" cols="45" name="comment"  >Enter message here...</textarea>
                   </div>
-                <div class="form-group">
-                    <label class="checkbox-inline">
-                        <input type="checkbox" value="true" required>I agree to the terms and conditions
-                    </label>
-                </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
