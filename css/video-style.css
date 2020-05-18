@@ -11,7 +11,7 @@ html{
     background-color: white;
 }
 .content{
-    background-image: url(/img/photo-1471445281684-fdf28e036aa8.jpg);
+    background-image: url(../img/photo-1471445281684-fdf28e036aa8.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

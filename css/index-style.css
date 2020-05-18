@@ -4,7 +4,7 @@ html{
 
 .main-body{
     width: 100%;
-    background-image: url(/img/pexels-photo-303383.jpeg);
+    background-image: url(../img/pexels-photo-303383.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
 }
