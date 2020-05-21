@@ -1,11 +1,16 @@
-html{
+body,html{
     scroll-behavior: smooth;
+    height: 100%;
+}
+.row{
+    margin: 0;
 }
 
 .main-body{
-    width: 100%;
     background-image: url(../img/pexels-photo-303383.jpeg);
-    background-size: contain;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 @media only screen and (max-width: 875px) {
@@ -20,9 +25,6 @@ html{
 
  .navbar-toggler .navbar-toggler-icon {
     background-color:gold;
-}
-.photo{
-    image-resolution: 30dpi;
 }
 .margin{
     margin-top: 7rem;
