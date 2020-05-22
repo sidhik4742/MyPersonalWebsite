@@ -1,6 +1,7 @@
 body,html{
     scroll-behavior: smooth;
     height: 100%;
+    margin: 0;
 }
 .row{
     margin: 0;
@@ -17,6 +18,9 @@ body,html{
     .main-body {
         background-image: linear-gradient(to left, #434343, #000000);
         background-size: cover;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
        /* background-image: url(img/photo-1541991078342-884c7bcb1ad6.jpeg);
        background-repeat:no-repeat; */
        
@@ -28,7 +32,6 @@ body,html{
 }
 .margin{
     margin-top: 7rem;
-    margin-left: 3rem;
 
 }
 
@@ -47,10 +50,39 @@ body,html{
 }
 .name{
     font-size: 3rem;
+    text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px gold;
 }
+/*
+
+.tooltipimg{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;    
+}
+.name:hover .tooltipimg{
+        visibility: visible;
+}
+
+@media only screen and (min-width: 1000px) {
+    .tooltipimg{
+        visibility: hidden;
+    }
+}
+*/
+
+
+
+
 .intro-para{
+    padding-top: 2rem;
     padding-bottom: 2rem;
-    margin-left: 2rem;
     font-weight: bold;
 }
 .Fullscreen{
