@@ -209,10 +209,13 @@ img {
     max-width: 100%;
 }
 
+.row{
+    margin: 0;
+}
 /*end reset*/
 
 body {
-    background: url(../img/signup-bg.jpg) no-repeat;
+    background: url(../img/feedback-bg.jpg) no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -493,7 +496,7 @@ p.copy-right-w3ls a:hover {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-    color: #fbb034;
+    color: black;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
