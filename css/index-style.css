@@ -91,12 +91,21 @@ body,html{
 .section2{
     background-color: whitesmoke;
 }
+.section2-img{
+    border-radius: 50px;
+}
+
 .section3{
     background-color: turquoise;
 }
 .section4{
     background-image: linear-gradient(to left, #434343, #000000);
 }
+
+.card-animation{
+    animation-duration: 3s;
+}
+
 .auto-alignment{
     width: 100%;
     height: auto;
