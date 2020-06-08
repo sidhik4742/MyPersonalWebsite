@@ -7,6 +7,10 @@ body,html{
     margin: 0;
 }
 
+.main-body a{
+    text-decoration: none;
+}
+
 .main-body{
     background-image: url(../img/pexels-photo-303383.jpeg);
     background-size: cover;
