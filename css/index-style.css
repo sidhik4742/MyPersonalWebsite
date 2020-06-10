@@ -217,3 +217,19 @@ p.copy-right-w3ls a:hover {
     color: #fbb034;
     text-decoration: line-through;
 }
+
+.zoom {
+    
+    transition: transform 1s; /* Animation */
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    border-radius: 5px;
+
+  }
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }

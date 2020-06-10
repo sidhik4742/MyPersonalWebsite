@@ -1,7 +1,8 @@
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover({
         html : true,
-        placement : 'right'
+        placement : 'right',
+        trigger : 'click',
     });
     $("#formButton").click(function(){
         var fullName = $("#fullName").val();
